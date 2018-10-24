@@ -20,5 +20,11 @@ public class Main {
                 "+1(756)-756-9876");
         System.out.println(gregsAccount.depositFunds(23.54));
         System.out.println(gregsAccount.withdrawFunds(98.67));
+
+        VIPCustomer customerOne = new VIPCustomer();
+        System.out.println(customerOne.getName());
+
+        VIPCustomer customerTwo = new VIPCustomer("Bob", "bob@email.com");
+        System.out.println(customerTwo.getName());
     }
 }

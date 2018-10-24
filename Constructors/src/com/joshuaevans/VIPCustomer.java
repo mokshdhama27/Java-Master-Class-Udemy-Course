@@ -30,4 +30,6 @@ public class VIPCustomer {
     public String getEmailAddress() {
         return emailAddress;
     }
+
+
 }
